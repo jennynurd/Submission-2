@@ -42,7 +42,7 @@ class UserController extends Controller
     }
 
     private static function cekUser($username) {
-        if ($username == 'ilman') {
+        if ($username == 'Jenny') {
             return true;
         } else {
             return false;
